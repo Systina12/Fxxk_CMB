@@ -64,4 +64,3 @@ if __name__ == "__main__":
         TXN_lines = []
         for index in TXN_indexes:
             TXN_lines.append(lines[index])
-        print(TXN_lines)
