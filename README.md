@@ -31,6 +31,10 @@ pyinstaller main.py --onefile
 
 
 
+```
+nuitka main.py --onefile --standalone
+```
+
 
 
 ## TODO
