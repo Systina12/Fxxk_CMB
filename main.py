@@ -86,6 +86,8 @@ def write_csv(path: str, rows: List[List[str]]):
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         error("未检测到路径，请在参数传入路径，或者直接把文件拖放到程序图标上")
+        input("按回车退出......")
+        sys.exit(1)
     try:
         paths=[]
         for arg in sys.argv[1:]:
@@ -118,3 +120,4 @@ if __name__ == "__main__":
 
 
     input("按回车退出......")
+    sys.exit(1)

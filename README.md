@@ -23,6 +23,16 @@ release.exe pdf1路径 pdf2路径 ......
 
 
 
+从代码打包：
+
+```
+pyinstaller main.py --onefile
+```
+
+
+
+
+
 ## TODO
 
 拼接过长被截断的对手信息
